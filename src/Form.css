@@ -1,0 +1,15 @@
+.labels{
+    margin: 20px;
+    font-size: large;
+}
+.form{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    margin: 25px;
+}
+.boton{
+    margin: 25px;
+}

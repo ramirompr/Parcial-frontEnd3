@@ -1,16 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
-import Card from './Components/Card'
+import Form from './Components/Form'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className='App'>
-        <h1>Carga de estudiantes</h1>
-        <form></form>
-        <Card/>
+        <h1 className='titulo'>Elige tu color favorito</h1>
+        <Form/>
       </div>
     </>
   )
